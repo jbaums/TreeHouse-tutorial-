@@ -14,7 +14,7 @@ public class TreeStory {
         */
       String ageAsString = console.readLine("How old are you?  ");
       int age = Integer.parseInt(ageAsString);
-      if (age < 13) {
+      if (age <= 13) {
         //Insert exit code
         console.printf("Sorry you must be at least 13 to use this program.\n");
         System.exit(0);
